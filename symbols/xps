@@ -1,0 +1,12 @@
+partial
+xkb_symbols "fix_pg_btns" {
+    include "us"
+    key <PGUP>  { 
+        type="PC_ALT_LEVEL2",
+        symbols = [ Left, Prior ]
+    };
+    key <PGDN> { 
+        type="PC_ALT_LEVEL2",
+        symbols = [ Right, Next ]
+    };
+};
