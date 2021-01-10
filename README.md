@@ -52,7 +52,7 @@ bash install.sh
     options:    caps:escape,compose:ralt
     ```
 
-5. Making the setting permanent.  I have found two suggestsions for how to make this setting persist across logins. so far, I have only seen the first option work as expected.
+5. Making the setting permanent.  I have found two suggestion for how to make this setting persist across logins. so far, I have only seen the first option work as expected.
 
     1. First, you can create/edit your `$HOME/.profile` to add `setxkbmap xps` to the end. This file contains commands that are applied when you session starts.
 
